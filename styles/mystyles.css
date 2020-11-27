@@ -1,0 +1,20 @@
+table {
+    box-shadow: 5px 5px 5px gray;
+    border-collapse: collapse;
+    width: 80%; /*% as wide as their parent element*/
+}
+
+th, td {
+    border-spacing: 10px 15px;
+    border: thin solid black;
+    padding: 5px;
+}
+th {
+    background-color: cadetblue;
+    font-size: large;
+}
+
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
