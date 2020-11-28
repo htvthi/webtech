@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Inhaltsverzeichnis</title>
-    <link href="./styles/mystyles.css" rel="stylesheet"> <!--logische Verknüpfung zur mystyles.css-Datei-->
+    <title>Inhaltsangabe</title> <!-- Zu sehen im Tab oder in der Such-Ergebnisliste -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css
+" />
+    <style>
+        tr th { text-align: center; text-transform: uppercase; font-family: Impact; background-color: #77815c }
+        tr:hover td { background: #AFAFAF; font-family: Century Gothic; textformat-transform: uppercase }
+        header h1 { text-transform: uppercase; text-align: center; font-family: Impact }
+        * {
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
 </head>
 <body>
-<head>
+<header>
     <h1>Inhaltsangabe</h1>
-</head>
+</header>
 <section>
-    <table>
+    <table class="table table-bordered table-hover table-responsive-xs">
         <thead>
         <tr>
-            <th>Übung</th>
-            <th>Thema</th>
-        </tr>
+            <th scope="col">Übung</th>
+            <th scope="col">Thema</th>
         </thead>
         <tbody>
         <tr>
@@ -30,7 +42,10 @@
             <td><a href="./Uebung3/uebung3.html">Übung 3</a></td>
             <td>RWD & Bootstrap</td>
         </tr>
-        </tbody>
+        <tr>
+            <td><a href="./Uebung4/uebung4.html">Übung 4</a></td>
+            <td>JavaScript & DOM</td>
+        </tr>
     </table>
 </section>
 </body>
